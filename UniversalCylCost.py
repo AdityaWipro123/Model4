@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # === Load the trained model ===
-model = joblib.load("./model5_fin.pkl")
+model = joblib.load("./model4_fin.pkl")
 
 # === Define encoding mappings ===
 cushioning_map = {'CC': 0, 'CH': 1, 'NC': 2}
